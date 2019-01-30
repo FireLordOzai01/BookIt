@@ -1,0 +1,295 @@
+body {
+    background-color: white;
+}
+
+.btn {
+    font-family: 'Fjalla One', sans-serif;
+}
+/* //////////////////////////////////// */
+/*             Featured Books           */
+/* //////////////////////////////////// */
+
+.featuredBookImg-container img {
+    height: 133px;
+    margin-top: 7%;
+    margin-left: 135px;
+    cursor: pointer;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    margin-right: 100px;
+}
+
+.featuredBook-container p {
+    margin-right: -50%;
+}
+
+.featuredBook-container {
+    height: 200px;
+    width: 552px;
+    font-size: 14px;
+    border: 2px solid grey;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    overflow: scroll;
+    background-color: white;
+}
+
+.featuredBook-container h5 {
+    margin-top: 4%;
+    cursor: pointer;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#featuredBooks-header {
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Fjalla One', sans-serif;
+}
+#featuredBooks-container {
+    position: relative;
+}
+
+#home-image{
+    top:0;
+    position:absolute;
+  }
+
+  #home-image img {
+      width: 100%;
+      height: 400px;
+  }
+
+  .welcome-container {
+    margin-top: 320px;
+    margin-bottom: 50px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  #welcome-text {
+    
+  }
+
+/* //////////////////////////////////// */
+/*               More Books             */
+/* //////////////////////////////////// */
+
+.bookImg-container img {
+    /* width:  60px; */
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 100px;
+    cursor: pointer;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.book-container {
+    height: 100px;
+    width: 690px;
+    font-size: 14px;
+    border: 2px solid grey;
+    margin-top: 3%;
+    margin-bottom:  1%;
+    overflow: scroll;
+    background-color: white;
+}
+
+.book-container p {
+    margin-left: -16rem;
+    padding: 0 4px;
+}
+
+.book-container h5 {
+    margin-top: 4%;
+    cursor: pointer;
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: -16rem;
+}
+
+.moreBooksList-header {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.moreBooksList-container {
+    /* margin-top: 10px; */
+    position: relative;
+}
+
+#filter-dropdown {
+    padding-top: 10px;
+}
+
+#MoreBooks-image {
+    top:0;
+    right: 0;
+    left: 0;
+    position:absolute;
+}
+
+#MoreBooks-image img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* //////////////////////////////////// */
+/*               Book Display           */
+/* //////////////////////////////////// */
+
+.bookDisplay-image-container img {
+    width:  300px;
+    height: 400px;
+    margin: 7%;
+}
+
+.bookDisplay-imageInfo-container {
+    margin-top: 5%;
+    background-color: white;
+}
+
+.bookDisplay-info-container {
+    margin: 3% 3% 3% 11%;
+}
+
+.bookDisplay-synopsis-container {
+    margin-top: 3%;
+    padding: 3%;
+    background-color: white;
+}
+
+/* //////////////////////////////////// */
+/*               Nav Bar                */
+/* //////////////////////////////////// */
+
+.fixed-top {
+    position: fixed;
+}
+
+.logo-container img {
+    width: 50px;
+    height: 50px;
+}
+
+#logo-text {
+    font-size: 40px;
+    margin-bottom: 0rem;
+    color: white;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.links-container p {
+    margin-bottom: 0rem;
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+
+/* //////////////////////////////////// */
+/*               Sign Up                */
+/* //////////////////////////////////// */
+
+.form-container {
+    margin-top: 130px;
+    position: relative;
+}
+
+#signup {
+    margin: 3% 3% 15% 60%;
+}
+
+.AdminLogin-container {
+    margin-top: 120px;
+}
+
+#signup p {
+    font-weight: bold;
+}
+
+/* //////////////////////////////////// */
+/*               Log In                 */
+/* //////////////////////////////////// */
+
+#login {
+    background-color: white;
+    padding: 50px 190px 90px 190px;
+    border: 2px solid grey;
+}
+
+#login input:first-of-type {
+    margin-bottom: 50px;
+}
+
+.AdminLogin-container h1 {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* //////////////////////////////////// */
+/*               Add Book               */
+/* //////////////////////////////////// */
+
+.addBook-btn-container button{
+    display: inline;
+}
+
+#addUpdate {
+    margin-top: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+.singleBook-container {
+    margin-top: 120px;
+}
+
+.btn-danger {
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.btn-info {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.btn-success {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.btn-warning {
+    margin-left: 10px;
+}
+
+.image-container {
+    position:relative;
+}
+
+.form-check-label {
+    color: white;
+}
+
+.addBook-btn-container {
+    margin-bottom: 31px;
+}
+
+
+/* //////////////////////////////////// */
+/*               Book                   */
+/* //////////////////////////////////// */
+
+.bookDisplay-info-container {
+    font-family: 'Fjalla One', sans-serif;
+    border-left: 1px solid black;
+    margin-left: 60px;
+}
+
+.bookDisplay-image-container {
+    padding-right: 5px;
+}
