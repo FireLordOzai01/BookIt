@@ -31,7 +31,7 @@ class Home extends Component {
                         </div>
                         
                     }
-                    {/* is admin is logged in show add/update form */}
+                    {/* if admin is logged in show add/update form */}
                     {this.props.goodLogin === true && 
                             <AddUpdateBook 
                                 books={this.props.books}

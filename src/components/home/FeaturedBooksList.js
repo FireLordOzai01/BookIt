@@ -3,29 +3,14 @@ import FeaturedBook from './FeaturedBook';
 
 class FeaturedBooksList extends Component {
     state = { 
-        // bookTitle: '',
-        // bookSynopsis: '',
-        // bookImg: '',
-        // bookRating: '',
-        // bookQuantity: "",
-        // inStock: true,
-        // isFeatured: true
-     }
 
-    // featureFilter = (arr) => {
-    //     let newArr =  arr.filter(book => book.isFeatured);
-    //      this.setState({
-    //         books: newArr
-    //      });
-    //  }
-   
+     }
 
     render() { 
         return (  
             <div id="featuredBooks-container">
                 <h1 id="featuredBooks-header">Featured Books</h1>
                 <div>
-                    {/* {this.props.featuredFilter(this.props.books)} */}
                     {this.props.featuredBooks.map((book, index) => {
                         return (
                             <FeaturedBook key={book.bookTitle + index} 

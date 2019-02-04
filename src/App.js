@@ -6,7 +6,7 @@ import MoreBooksList from './components/moreBooks/MoreBooksList';
 import BookDisplay from './components/book/BookDisplay';
 import NavBar from './components/navbar/NavBar';
 import {HOME, BOOKDISPLAY, MOREBOOKS, ADMINLOGIN} from './components/constants/constants';
-import AdminLogin from './components/home/AdminLogin';
+import AdminLogin from './components/admin/AdminLogin';
 
 
 class App extends Component {
@@ -154,6 +154,7 @@ guestSignUp = (user) => {
   })
 }
 
+//filters out all books where isFeatured is set to true
 featuredFilter = arr => {
   let newArr =  arr.filter(book => book.isFeatured);
    this.setState({
@@ -215,6 +216,7 @@ updateBook = (book, index) => {
   })
 }
 
+//adds or updates book in state for  books and featuredBooks sets updatingBook & updatingBookIndex back to null
 addUpdatedBook = (book, index, event) => {
   event.preventDefault();
   
