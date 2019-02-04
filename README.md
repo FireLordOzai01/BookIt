@@ -7,5 +7,5 @@ On the more books page, you will be able to see the entire inventory of books. Y
 
 On the admin page you can enter your username and password(admin, admin) and you will be redirected to the homepage. A form will be conditionally rendered for updating books. This form will appear in the home page and on  the more books page. As well, buttons will appear next to each book in the featured section and in the more books page. Clickin on the update button will send all data for that book to the form where you can alter the data for that specific book. Clickin on the 'x' button will remove that book from the featured list. In the more books page any book not featured will have a '+' button, clicking this button will add it to the featured page. On this page you are able to update a book as well. When done, you can log out.
 
-# Example
+# Demo
 ![](src/images/bookIt.gif)
